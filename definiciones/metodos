@@ -1,0 +1,16 @@
+getCurrentPosition(ubicación, error, configuración) Este es el método utilizado para
+consultas individuales. Puede recibir hasta tres atributos: una función para procesar la
+ubicación retornada, una función para procesar los errores retornados, y un objeto
+para configurar cómo la información será adquirida. Solo el primer atributo es
+obligatorio para que el método trabaje correctamente.
+
+watchPosition(ubicación, error, configuración) Este método es similar al anterior, excepto
+que comenzará un proceso de vigilancia para la detección de nuevas ubicaciones.
+Trabaja de forma similar que el conocido método setInterval() de Javascript,
+repitiendo el proceso automáticamente en determinados períodos de tiempo de
+acuerdo a la configuración por defecto o a los valores de sus atributos.
+
+clearWatch(id) El método watchPosition() retorna un valor que puede ser almacenado en
+una variable para luego ser usado como referencia pro el método clearWatch() y así
+detener la vigilancia. Este método es similar a clearInterval() usado para detener los
+procesos comenzados por setInterval() .

@@ -1,0 +1,11 @@
+El objeto Position tiene dos atributos:
+
+coords Este atributo contiene un grupo de valores que establecen la ubicación del
+dispositivo y otros datos importantes. Los valores son accesibles a través de siete
+atributos internos: latitude (latitud), longitude (longitud), altitude (altitud en
+metros), accuracy (exactitud en metros), altitudeAccuracy (exactitud de la
+altitud en metros), heading (dirección en grados) y speed (velocidad en metros por
+segundo).
+
+timestamp Este atributo indica el momento en el que la información fue adquirida (en
+formato timestamp).
