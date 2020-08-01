@@ -8,9 +8,9 @@
 
         <link rel="stylesheet" type="text/css" href="css/styles.css">
 
-        <script src="js/javas.js"></script> 
+        <script src="js/main.js"></script> 
 
-        <title>Geolocation 1</title>
+        <title> Geolocation </title>
 
     </head>
 
